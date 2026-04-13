@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, 'Open Sans', Arial, sans-serif;
+    background-color: #f4ede4;
+    color: #2c1e11;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #740001;
+    color: #eeba30;
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 5px solid #d3a625;
+}
+
+header img {
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+    max-width: 120px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 15px;
+}
+
+nav a {
+    color: #eeba30;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+section, article, aside {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #1a472a;
+    border-left: 5px solid #740001;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+form {
+    background-color: #fdf5e6;
+    padding: 25px;
+    border: 1px solid #740001;
+    border-radius: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+    width: 100%; 
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+}
+
+input[type="radio"], 
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+button {
+    background-color: #740001;
+    color: white;
+    padding: 15px;
+    border: none;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #5a0001;
+}
+
+.tarjeta {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.destacado {
+    color: #740001;
+    font-weight: bold;
+}
+
+ol {
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
